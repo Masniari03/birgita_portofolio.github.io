@@ -1,0 +1,188 @@
+.left {
+	position: relative;
+	width: 28vh;
+	height: 340px;
+	background-color: #8c7ee3;
+	padding-top: 100px;
+}
+
+.left span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-left: 25px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.circle {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	top: 25px;
+	left: 60px;
+}
+
+.line {
+	position: absolute;
+	left: 64px;
+	top: 35px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.resume {
+	position: absolute;
+}
+
+.resume span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-top: -342px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.resume .garis {
+	position: absolute;
+	left: 64px;
+	top: -360px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.cv {
+	position: absolute;
+}
+
+.cv span {
+	display: block;
+	color: white;
+	padding: 10px 20px;
+	margin-top: -288px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.cv .line {
+	position: absolute;
+	left: 64px;
+	top: -310px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.contact {
+	position: absolute;
+}
+
+.contact span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-top: -236px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.contact .garis {
+	position: absolute;
+	left: 64px;
+	top: -258px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.contact .lingkaran {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	top: -175px;
+	left: 60px;
+}
+.contact .line {
+	position: absolute;
+	left: 64px;
+	top: -203px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.atas {
+	border: 3px solid #bf97d2;
+	border-radius: 8px;
+	padding: 29px;
+	width: 760px;
+	height: 20px;
+	font-family: "inria sans";
+	font-size: 26px;
+	font-style: italic;
+	text-align: center;
+	margin-top: -600px;
+	margin-left: 200px;
+}
+
+h1 {
+	position: relative;
+	margin: 0;
+	top: -20px;
+}
+
+p {
+	position: relative;
+	font-size: 16px;
+	text-align: left;
+	font-style: normal;
+	font-family: "inria sans";
+	margin-left: -29px;
+	margin-top: 25px;
+}
+
+.gambar {
+	position: relative;
+	display: inline-block;
+	left: -90px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.next {
+	position: absolute;
+	bottom: 10px;
+	padding: 10px 20px;
+	background-color: #e4c6ff;
+}
+
+.next {
+	right: 60px;
+}
+
+.next {
+	position: absolute;
+	bottom: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.next a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

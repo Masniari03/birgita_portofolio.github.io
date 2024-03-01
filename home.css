@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(226, 226, 255);
+	font-family: "inria sans";
+}
+.tulisan {
+	font-size: 18px;
+	font-family: "inria sans";
+	font-weight: 134px;
+	background-color: white;
+	margin-left: 100px;
+	max-width: 900px;
+	margin-top: 70px;
+	width: 969px;
+	height: 425px;
+}
+h1 {
+	color: black;
+	font-family: "inria sans";
+	margin-left: 50px;
+	line-height: 75px;
+}
+
+h2 {
+	color: black;
+	font-family: "inria sans";
+	margin-top: -55px;
+	margin-left: 50px;
+	line-height: 75px;
+}
+
+#typed-text {
+	font-family: monospace;
+	overflow: hidden;
+	border-right: 2px solid;
+	color: #8c7ee3;
+	margin-left: 125px;
+	margin-top: -70px;
+	font-size: 20px;
+	font-family: "inria sans";
+	font-weight: 134px;
+	white-space: nowrap;
+	animation: retroTyper 2s steps(40, end) infinite; /* Menambahkan "infinite" untuk membuat animasi berulang tanpa henti */
+}
+
+@keyframes retroTyper {
+	from {
+		width: 0;
+	}
+}
+
+h4 {
+	font-family: "inria sans";
+	color: black;
+	font-weight: 300;
+	margin-top: -5px;
+	margin-left: 50px;
+	text-transform: uppercase;
+	padding: 5px;
+	width: 130px;
+	background: #8c7ee3;
+}
+
+p {
+	color: black;
+	font-family: "inria sans";
+	margin-left: 50px;
+	margin-top: -10px;
+}
+
+button {
+	display: inline-block;
+	border: none;
+	outline: none;
+	padding: 10px;
+	width: 160px;
+	color: rgba(255, 255, 255, 1);
+	font-weight: 400;
+	font-family: "inria sans";
+	cursor: pointer;
+	margin-top: -40px;
+	margin-left: 50px;
+	border-radius: 8px;
+	background: #8c7ee3;
+}
+
+button:hover {
+	background: rgb(169, 195, 255);
+}
+
+button:focus {
+	background: #8c7ee3;
+}
+
+button a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

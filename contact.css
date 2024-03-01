@@ -1,0 +1,247 @@
+.left {
+	position: relative;
+	width: 28vh;
+	height: 340px;
+	background-color: #8c7ee3;
+	padding-top: 100px;
+}
+
+.left span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-left: 25px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.circle {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	top: 25px;
+	left: 60px;
+}
+
+.line {
+	position: absolute;
+	left: 64px;
+	top: 35px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.resume {
+	position: absolute;
+}
+
+.resume span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-top: -342px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.resume .garis {
+	position: absolute;
+	left: 64px;
+	top: -360px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.cv {
+	position: absolute;
+}
+
+.cv span {
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	margin-top: -288px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.cv .line {
+	position: absolute;
+	left: 64px;
+	top: -310px;
+	width: 2px;
+	height: 30px;
+	background-color: black;
+}
+
+.contact {
+	position: absolute; /* Tambahkan properti position: relative untuk .resume */
+}
+
+.contact span {
+	display: block;
+	color: white;
+	padding: 10px 20px;
+	margin-top: -236px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.contact .garis {
+	position: absolute;
+	left: 64px; /* Sesuaikan dengan posisi yang diinginkan */
+	top: -258px; /* Sesuaikan dengan posisi yang diinginkan */
+	width: 2px;
+	height: 30px; /* Sesuaikan dengan tinggi yang diinginkan */
+	background-color: black;
+}
+
+.contact .lingkaran {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	top: -175px;
+	left: 60px;
+}
+.contact .line {
+	position: absolute;
+	left: 64px; /* Sesuaikan dengan posisi yang diinginkan */
+	top: -203px; /* Sesuaikan dengan posisi yang diinginkan */
+	width: 2px;
+	height: 30px; /* Sesuaikan dengan tinggi yang diinginkan */
+	background-color: black;
+}
+
+.atas {
+	border: 3px solid #bf97d2;
+	border-radius: 8px;
+	padding: 29px;
+	width: 760px;
+	height: 20px;
+	font-family: "inria sans";
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	margin-top: -600px;
+	margin-left: 200px;
+}
+
+h1 {
+	position: relative;
+	margin: 0;
+	top: -20px;
+}
+
+.kata {
+	position: relative;
+	font-family: "inria sans";
+	color: black;
+	margin-left: 205px;
+	margin-top: 50px;
+}
+
+.kata h1 {
+	position: relative;
+	margin-left: 40px;
+	color: black;
+	font-size: 25px;
+	font-weight: 100px;
+}
+h2 {
+	position: relative;
+	font-size: 16px;
+	margin-top: 10px;
+	height: -20px;
+	font-weight: normal;
+}
+.kata img {
+	position: relative;
+	top: -156px;
+	width: 30px;
+}
+.alamat {
+	position: relative;
+	font-family: "inria sans";
+	color: black;
+	margin-left: 205px;
+	margin-top: 30px;
+}
+.alamat h1 {
+	color: black;
+	font-size: 25px;
+	font-weight: 100px;
+	margin-top: -17px;
+	margin-left: 40px;
+}
+h2 {
+	position: relative;
+	font-size: 16px;
+	top: -30px;
+	font-weight: normal;
+}
+.alamat img {
+	position: relative;
+	top: -92px;
+	width: 30px;
+}
+
+.sosial {
+	position: relative;
+	font-family: "inria sans";
+	color: black;
+	margin-left: 205px;
+	margin-top: 30px;
+}
+.sosial h1 {
+	color: black;
+	font-size: 25px;
+	font-weight: 100px;
+	margin-top: -12px;
+	margin-left: 40px;
+}
+h2 {
+	position: relative;
+	font-size: 16px;
+	top: -30px;
+	font-weight: normal;
+}
+.sosial img {
+	position: relative;
+	top: -92px;
+	width: 30px;
+}
+#typed-text {
+	font-family: monospace;
+	overflow: hidden;
+	border-right: 2px solid;
+	color: blueviolet;
+	margin-left: 565px;
+	margin-top: -85px;
+	font-size: 40px;
+	font-family: "inria sans";
+	font-weight: 134px;
+	white-space: nowrap;
+	animation: inhale 2s steps(40, end) infinite; /* Menambahkan "infinite" untuk membuat animasi berulang tanpa henti */
+}
+
+@keyframes inhale {
+	0% {
+		width: 0;
+	}
+	50% {
+		width: 100%;
+	}
+	100% {
+		width: 0;
+	}
+}
